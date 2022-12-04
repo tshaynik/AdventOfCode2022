@@ -9,7 +9,7 @@
     in {
       devShells.default = pkgs.mkShell {
         nativeBuildInputs = [ pkgs.bashInteractive ];
-        buildInputs = with pkgs; [ cargo rustc nushell rust-analyzer ];
+        buildInputs = with pkgs; [ nushell ];
       };
     });
 }
